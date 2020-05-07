@@ -1,0 +1,28 @@
+[root@likan teraform]# openstack image list
++--------------------------------------+--------------------------------------------+--------+
+| ID                                   | Name                                       | Status |
++--------------------------------------+--------------------------------------------+--------+
+| 22e935a1-dffe-43d5-939f-98b5a2c92771 | CentOS 7                                   | active |
+| 290591c5-457a-404d-81e5-0967dcff0f5f | CentOS Atomic Host 7                       | active |
+| e9b58293-f959-4bf9-98b7-e71eaeb30e7b | Centos 8                                   | active |
+| cc5ad21f-0dfc-4931-9293-365946509d0b | Debian 10                                  | active |
+| 37f6afcf-c947-468f-a4c5-c4bca53f0620 | Debian-9.5.6                               | active |
+| fe1a0858-3290-439d-915a-1da30dd917d8 | Fedora31                                   | active |
+| 687f5533-4714-4ddc-8670-1712f9c1409b | RancherOS v1.4.0                           | active |
+| 4e848221-d583-4562-b28a-7fb5d12317fa | Ubuntu 14.04.5 LTS (Trusty Tahr)           | active |
+| 0b98a797-0171-4ffc-be36-8c35bd8e2d46 | Ubuntu 16.04 LTS (Xenial Xerus)            | active |
+| f9a47558-30d5-4a04-adbe-415cb62d8a90 | Ubuntu 20.04                               | active |
+| d4129094-53b6-4fbc-a439-2ddd356adc82 | Ubuntu Server 14.04 LTS (Trusty Tahr)      | active |
+| d9155a8a-9462-4ee9-a7db-90b0b9fc4d0f | Ubuntu Server 16.04 LTS (Xenial Xerus)     | active |
+| 5a83dc59-835d-4a37-9d22-439b94704f94 | Ubuntu Server 18.04 LTS (Bionic Beaver)    | active |
+| 77e1b81d-dd8b-4256-ae92-c3cd751abee3 | Win 2016 Std Eval                          | active |
+| f3c91f52-61ed-4875-845a-0864e48f6647 | Win_Svr_Std_and_DataCtr_2012_64Bit_English | active |
+| 958162d6-7dfd-494d-84fa-80eb2ec77eb2 | Windows 10 PRO                             | active |
+| 2bd15587-3809-49d8-b4f0-577904209550 | Windows-2016-standard                      | active |
+| c4ee932c-5936-44d7-b991-a74ab5720413 | centos-exam                                | active |
+| 632f7ab3-a2c0-4647-8d8d-ce35174a4102 | cirros                                     | active |
+| b1ebc868-937f-475f-968d-adfbd5542edd | site-ex                                    | active |
+| ebcdd7c9-1e8c-496d-8118-90c5ff3a8f9d | systemrescuecd-amd64-6.1.2                 | active |
+| d681aae8-69a3-49c3-8fc0-af42105692be | systemrescuecd-x86-5.3.2                   | active |
+| 1fbd4602-926c-4ab6-9755-69478e685734 | vlad                                       | active |
++--------------------------------------+--------------------------------------------+--------+

@@ -1,0 +1,44 @@
+[root@likan]# openstack flavor list
++--------------------------------------+---------------------+--------+------+-----------+-------+-----------+
+| ID                                   | Name                |    RAM | Disk | Ephemeral | VCPUs | Is Public |
++--------------------------------------+---------------------+--------+------+-----------+-------+-----------+
+| 002b91c4-cf51-4d39-8f4e-f5dee50b7e69 | 1c-temp             |  32768 |  100 |         0 |    16 | True      |
+| 05b475c0-3e81-4fb7-bcfd-c24c5f5047df | ram512cpu1          |    512 |    0 |         0 |     1 | True      |
+| 091108c3-971f-4428-8341-65d08d09ebcc | mem.xlarge          |  16384 |   20 |         0 |     8 | True      |
+| 0951839f-7740-4239-a5f3-5aa76f9e81d6 | cpu.large           |   4096 |   20 |         0 |     8 | True      |
+| 0c638b83-24c2-4804-8f59-93e00c855260 | mem.large           |   8192 |   20 |         0 |     4 | True      |
+| 132bc377-e9bf-4499-b93d-9496a28da366 | ram640cpu2          |    640 |    0 |         0 |     2 | True      |
+| 1dd164e4-c903-45c0-9d70-990d7531501c | mem.larger          |  16384 |   10 |         0 |     4 | True      |
+| 247a0653-57e6-44b6-b5c8-22321b825c2b | ram1024cpu2         |   1024 |    0 |         0 |     2 | True      |
+| 2a4d7730-ea3f-47ad-ada9-ff29eae2a9ba | ram14336cpu8        |  14336 |    0 |         0 |     8 | True      |
+| 40aea54b-5138-4675-9360-a21067ba207a | plesk.16cpu.compute |  69632 |    0 |         0 |    16 | True      |
+| 44b259ed-be5a-441b-b679-4bb256bf526d | ram2048cpu3         |   2048 |    0 |         0 |     3 | True      |
+| 4684e188-b3cf-4af9-8d76-b367c43f67ad | base.large          |   4096 |   20 |         0 |     4 | True      |
+| 50751312-f7ff-4b5d-ab8c-17c5d884039d | ram4096cpu8         |   4096 |    0 |         0 |     8 | True      |
+| 5987a8f6-ce5b-493f-8a80-cc95ba54abb7 | ram32768cpu16       |  32768 |    0 |         0 |    16 | True      |
+| 5e1282bc-9fb1-48dd-817e-f3abfea853d9 | mem.medium          |   4096 |   20 |         0 |     2 | True      |
+| 62b41b06-f291-4b1f-ab2c-83115f1e16a3 | ram20480cpu8        |  20480 |    0 |         0 |     8 | True      |
+| 6bab8dd3-db40-47d1-bca0-d1ee4e9b7c85 | ram6144cpu2         |   6144 |    0 |         0 |     2 | True      |
+| 6c251953-e288-41ed-9554-2dba1b7cc45d | ram6144cpu3         |   6144 |    0 |         0 |     3 | True      |
+| 75918771-b513-45d5-b55c-e932c6997893 | ram32768cpu4        |  32768 |    0 |         0 |     4 | True      |
+| 81c0e2b6-e6fb-4b3d-851a-ae511fd3311b | ram4096cpu1         |   4096 |    0 |         0 |     1 | True      |
+| 8744caf5-ddab-4a39-812a-3cb0bba13784 | ram16384cpu10       |  16384 |    0 |         0 |    10 | True      |
+| 89d1ae0f-5670-4ff3-98c3-d2ca1cc9aee1 | cpu.tiny            |    512 |   20 |         0 |     1 | True      |
+| 8b1790fa-2530-49e5-a61b-d19d4c78b6c9 | ram4096cpu4         |   4096 |    0 |         0 |     4 | True      |
+| 918a1c00-7887-4046-8b67-b978a00a591a | base.xlarge         |   8192 |   20 |         0 |     8 | True      |
+| 9902cb71-82ef-4133-8eae-55e7ad057d64 | ram65536cpu12       |  65536 |    0 |         0 |    12 | True      |
+| a5c7bae4-7ec8-4a0d-a4ab-bc0e0a2e68c3 | cpu.small           |   1024 |   20 |         0 |     2 | True      |
+| aff911c6-f508-46c1-94b8-51904ddeb4a3 | ram6144cpu4         |   6144 |    0 |         0 |     4 | True      |
+| b5f0ac80-85c0-4823-8d6a-bccbfeb17171 | d1.ram131cpu1       | 134144 |    0 |         0 |     1 | True      |
+| bcec3f6e-c45e-43e2-997c-b838f4d171e9 | ram16384cpu8        |  16384 |    0 |         0 |     8 | True      |
+| bd9ec063-92f0-40e9-8aa8-82286ff8591a | ram8192cpu2         |   8192 |    0 |         0 |     2 | True      |
+| c20289c4-76ea-43b4-ad23-720f60f38670 | ram1024cpu3         |   1024 |    0 |         0 |     3 | True      |
+| c3d23a66-0509-40d5-a49d-8beba6d2c19e | ram2048cpu4         |   2048 |    0 |         0 |     4 | True      |
+| cfa99b72-9133-47d5-990a-79d620572253 | mem.tiny            |   1024 |   20 |         0 |     1 | True      |
+| d0d3ef93-2184-4901-aaa8-e49a41cfda85 | ram32768cpu6        |  32768 |    0 |         0 |     6 | True      |
+| d9085cac-451c-4400-b4da-3b149a57668c | cpu2_ram2           |   2048 |    0 |         0 |     2 | True      |
+| e7b1c616-23d3-4c3d-8a82-6937165c212d | mem.small           |   2048 |   20 |         0 |     1 | True      |
+| ebe529fa-b049-4b85-bff0-09932bdde3bd | ram65536cpu8        |  65536 |    0 |         0 |     8 | True      |
+| eefc1668-2f40-44e1-90cb-bff80019ea2d | ram2048cpu2         |   2048 |    0 |         0 |     2 | True      |
+| ff820ed3-5dd5-41f9-9255-49dce9ad0e5c | ram16384cpu4        |  16384 |    0 |         0 |     4 | True      |
++--------------------------------------+---------------------+--------+------+-----------+-------+-----------+
