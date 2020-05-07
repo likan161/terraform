@@ -1,20 +1,11 @@
-#_____connect_______________________________________________________________#
-provider "openstack" {
-  user_name            = "USER"
-  tenant_name          = "PROJECT_NAME"
-  password             = "PASSWORD"
-  auth_url             = "https://auth.pscloud.io/v3/"
-  region               = "RegionOne"
-}
-
 #__create_network________________________________________________________________________#
 resource "openstack_networking_network_v2" "teraform_network" {
-  name                 = "network_01"
+  name                 = var.lan_name
 }
 
 #_____create_subnet______________________________________________________________________#
 resource "openstack_networking_subnet_v2" "teraform_subnet" {
-  name                 = "subnet_01"
+  name                 = var.lan_name
   network_id           = openstack_networking_network_v2.teraform_network.id
   cidr                 = "192.168.0.0/24"
   ip_version           = 4
@@ -27,7 +18,7 @@ resource "openstack_networking_subnet_v2" "teraform_subnet" {
 
 #_____create_router______________________________________________________________________#
 resource "openstack_networking_router_v2" "teraform_router" {
-  name                = "ex-router"
+  name                = var.lan_name
   external_network_id = "83554642-6df5-4c7a-bf55-21bc74496109" #FloatingIP Net ID
 }
 
