@@ -20,6 +20,7 @@ resource "openstack_networking_subnet_v2" "teraform_subnet" {
 resource "openstack_networking_router_v2" "teraform_router" {
   name                = var.lan_name
   external_network_id = "83554642-6df5-4c7a-bf55-21bc74496109" #FloatingIP Net ID
+  depends_on = ["name"]
 }
 
 #_____Adds_a_subnet_interface_to_the_router_____________________________________________#

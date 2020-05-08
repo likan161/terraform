@@ -1,7 +1,3 @@
-variable "ssh_key_file" {
-default = "~/.ssh/id_rsa"
-}
-
 variable "image_id" {
 default = "22e935a1-dffe-43d5-939f-98b5a2c92771"
 }
